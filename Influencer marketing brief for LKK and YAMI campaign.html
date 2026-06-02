@@ -247,26 +247,27 @@
         <li><strong>영상에서 YAMI 앱을 노출할 때는 제품 listing 페이지뿐만 아니라 배송 관련 정보 페이지도 함께 보여주며, 배송 혜택을 시각적으로 설명해 주세요. 또한 아래 샘플 영상처럼 제공된 링크가 화면에 어떻게 보여질 수 있는지도 참고해 주세요.&nbsp;</strong></li>
       </ul>
 
-      <div class="video-demo">
-        <span class="callout-title">Reference Video Preview</span>
-          
-        <p class="video-note" style="margin-bottom: 12px; color: #cc0000; font-weight: bold;">  
-            ⚠️ 만약 아래 프레임에서 영상이 재생되지 않는다면, 버튼을 눌러 샘플 영상을 직접 다운로드해 주세요.
-        </p> <!-- 👈 </p> 로 정확하게 닫아주었습니다. -->
+<div class="video-demo">
+  <span class="callout-title">Reference Video Preview</span>
+      
+  <p class="video-note" style="margin-bottom: 12px; color: #cc0000; font-weight: bold;">  
+      ⚠️ 만약 아래 프레임에서 영상이 재생되지 않는다면, 버튼을 눌러 샘플 영상을 직접 다운로드해 주세요.
+  </p>
 
-        <a href="APP_VIDEO/yami_shipping_service.mp4"
-          download="yami_shipping_service.mp4"
-          style="display: inline-block; background-color: #cc0000; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.9rem; margin-bottom: 15px;">
-          ⬇️ 샘플 동영상 다운로드 받기
-        </a>
-            
-        <div class="phone-frame">
-          <video controls playsinline preload="metadata"
-                 src="APP_VIDEO/yami_shipping_service.mp4">
-          </video>
-        </div>
-        <p class="video-note"><br></p>
-      </div>
+  <a href="./APP_VIDEO/yami_shipping_service.mp4"
+    download="yami_shipping_service.mp4"
+    style="display: inline-block; background-color: #cc0000; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.9rem; margin-bottom: 15px;">
+    ⬇️ 샘플 동영상 다운로드 받기
+  </a>
+      
+  <div class="phone-frame">
+    <!-- 👇 속성 끝에 > 를 정확하게 붙여서 닫아주었습니다 -->
+    <video controls playsinline preload="metadata">
+      <source src="./APP_VIDEO/yami_shipping_service.mp4" type="video/mp4">
+      브라우저가 동영상 태그를 지원하지 않습니다.
+    </video>
+  </div>
+</div>
 
       <h3>3.3 정품 신뢰도</h3>
       <ul>
